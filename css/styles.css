@@ -1,0 +1,42 @@
+/*
+    color pallete
+    primary color: rgb(141, 51, 65)
+    secondary color: rgb(138, 59, 54)
+    Accent color: rgb(29, 22, 38)
+
+    Heading: font-family: 'Old Standard TT', serif;
+    Body Copy: font-family: 'PT Serif', serif;
+*/
+
+/*Gobal*/
+
+body {
+    background: url('../img/stardust.png')
+}
+
+/*Typography*/
+
+h1,h2 {
+    font-family: 'Old Standard TT', serif;
+    color: rgb(141, 51, 65)
+}
+
+p,blockquote {
+    font-family: 'PT Serif', serif;
+    color: rgb(245, 244, 243);
+    text-align: right;
+}
+
+blockquote {
+    font-size: 2em;
+    text-align: center;
+    padding: 1em;
+    font-style: italic;
+}
+
+
+/*Images*/
+
+section img {
+    width: 65%
+}
